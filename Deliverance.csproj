@@ -1013,6 +1013,8 @@
     <Compile Include="Assets\PlayMaker Custom Actions\Camera\Camera2dSmoothFollow.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\DynamicVisionConeFov.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\RaycastAdvanced.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\ScriptControl\GetStaticProperty.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\ScriptControl\SetStaticProperty.cs" />
     <Compile Include="Assets\PlayMaker Utils\Actions\MonoBehaviour\TransformEventsBridge.cs" />
     <Compile Include="Assets\PlayMaker Utils\Components\Comment.cs" />
     <Compile Include="Assets\PlayMaker Utils\Event Properties\Actions\GetEventProperties.cs" />
@@ -1261,6 +1263,7 @@
     <Compile Include="Assets\PlayMaker\Actions\GameObject\FindChild.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\FindClosest.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\FindGameObject.cs" />
+    <Compile Include="Assets\PlayMaker\Actions\GameObject\FindGameObjectToObj.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetChild.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetChildCount.cs" />
     <Compile Include="Assets\PlayMaker\Actions\GameObject\GetChildNum.cs" />

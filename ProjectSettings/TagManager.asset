@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy/Enemy1
   - Player/PlayerHead
+  - Collider/Crouch
+  - Collider/RotateLevel
+  - Level
   layers:
   - Default
   - TransparentFX
@@ -16,7 +19,7 @@ TagManager:
   - 
   - 
   - Scene
-  - 
+  - Collider
   - 
   - 
   - 

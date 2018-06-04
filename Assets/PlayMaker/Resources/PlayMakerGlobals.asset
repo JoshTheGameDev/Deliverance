@@ -30,4 +30,7 @@ MonoBehaviour:
     categories:
     - 
     variableCategoryIDs: 
-  events: []
+  events:
+  - PlayerIsStanding
+  - PlayerCanCrouch
+  - RotateLevel
