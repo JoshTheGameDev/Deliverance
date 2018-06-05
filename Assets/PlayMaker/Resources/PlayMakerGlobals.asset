@@ -34,3 +34,4 @@ MonoBehaviour:
   - PlayerIsStanding
   - PlayerCanCrouch
   - RotateLevel
+  - StopRotate
