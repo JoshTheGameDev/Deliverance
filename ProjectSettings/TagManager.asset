@@ -4,11 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy/Enemy1
   - Player/PlayerHead
   - Collider/Crouch
   - Collider/RotateLevel
   - Level
+  - Characters
+  - Enemy/Bullet
+  - Enemy/FirePoint
+  - Enemy/Waypoints
+  - Enemy/Enemy
   layers:
   - Default
   - TransparentFX
