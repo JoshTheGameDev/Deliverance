@@ -366,10 +366,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Deliverance.Plugins.csproj">
-      <Project>{4B2E4ED1-799D-6BF7-3864-267E4E8D952E}</Project>
-      <Name>Deliverance.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Deliverance.csproj">
       <Project>{DCF509D8-6A9C-711A-F1C0-757C3F34BEFE}</Project>
       <Name>Deliverance</Name>
@@ -378,13 +374,8 @@
       <Project>{DCF509D8-6A9C-711A-F1C0-757C3F34BEFE}</Project>
       <Name>Deliverance</Name>
     </ProjectReference>
-    <ProjectReference Include="Deliverance.Editor.Plugins.csproj">
-      <Project>{5F66A59B-A980-D12B-2207-8D95DACBC057}</Project>
-      <Name>Deliverance.Editor.Plugins</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Easy Save 2\Editor\InstallES3Beta.cs" />
     <Compile Include="Assets\net.fabrejean\Editor\Common\Utils.cs" />
     <Compile Include="Assets\net.fabrejean\Editor\Common\VersionInfo.cs" />
     <Compile Include="Assets\net.fabrejean\Editor\Common\WWW.cs" />
@@ -413,6 +404,11 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Actions\HashTable\Editor\HashTableSetCustomEditor.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Custom\GameObject\Editor\ArrayListSendEventToGameObjectsCustomEditor.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Editor\ArrayMakerEditorUtils.cs" />
+    <Compile Include="Assets\PlayMaker uGui\Editor\PlayMakerUGuiCanvasRaycastFilterEventsProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker uGui\Editor\PlayMakerUGuiComponentProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker uGui\Editor\PlayMakerUGuiDragEventsProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker uGui\Editor\PlayMakerUGuiDropEventsProxyInspector.cs" />
+    <Compile Include="Assets\PlayMaker uGui\Editor\PlayMakerUGuiPointerEventsProxyInspector.cs" />
     <Compile Include="Assets\PlayMaker Utils\Components\Editor\CommentInspector.cs" />
     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerCurrentEventDataEditor.cs" />
     <Compile Include="Assets\PlayMaker Utils\Editor\PlayMakerEditorUtils.cs" />
@@ -614,8 +610,6 @@
     <Compile Include="Assets\ShaderForge\Editor\InternalResources\Inspectors\ShaderForgeMaterialInspector.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Easy Save 2\changelog.txt" />
-    <None Include="Assets\Easy Save 2\readme.txt" />
     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
     <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\LICENSE.txt" />
     <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\README.txt" />
@@ -625,12 +619,6 @@
     <None Include="Assets\PlayMaker\Readme.txt" />
     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
     <None Include="Assets\PlayMaker\Templates\Readme.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ClassTypeTemplate.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\Editor\ES3Type_MaterialTemplate.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
-    <None Include="Assets\Plugins\Easy Save 3\link.xml" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
     <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
     <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
